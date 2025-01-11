@@ -6,7 +6,6 @@ This repository contains the code and data for my Math IA project, which explore
 
 ## 🧐 Purpose  
 The goal of this project is to connect mathematical concepts with practical applications in artificial intelligence (AI). Using Python, the project highlights how neural networks work and how they process data for digit classification.  
-View the raw math calculations on this [Google Sheets Link](https://docs.google.com/spreadsheets/d/1Cq9TQVi4c1R4hMYBZ8yyiRYQwrktnMIA719n4Upulj8/edit?usp=sharing)
 
 ---
 
