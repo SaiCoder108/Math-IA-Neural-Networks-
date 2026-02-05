@@ -1,11 +1,18 @@
-# 🧠 Neural Networks for Handwritten Digit Recognition  
+## 🧠 Neural Networks for Handwritten Digit Recognition
 
-This repository contains the code and data for my Math IA project, which explores the mathematics behind neural networks. 🧮 It demonstrates how a neural network classifies handwritten digits by learning from training data. 📝  
+This project explores the **mathematical foundations of neural networks**, with a focus on **deriving backpropagation from first principles**. The handwritten digit classifier is used as a concrete application to validate the mathematics.
 
----
+Rather than treating the model as a black box, the project examines:
+- Forward propagation through multiple layers
+- **Backward propagation of gradients using the chain rule**
+- Weight and bias updates during a single learning step
 
-## 🧐 Purpose  
-The goal of this project is to connect mathematical concepts with practical applications in artificial intelligence (AI). Using Python, the project highlights how neural networks work and how they process data for digit classification.  
+A **full iteration of backpropagation was computed manually by hand**, and the analytical results were verified using a Python/TensorFlow implementation.
+
+The included code, trained models, and exported weight matrices primarily serve to:
+- Validate gradient calculations
+- Inspect learned parameters
+- Connect mathematical theory to an implemented neural network
 
 ---
 
@@ -19,17 +26,6 @@ The goal of this project is to connect mathematical concepts with practical appl
 - **`layer_2_biases.csv`**: Biases of the second hidden layer. ➕  
 - **`layer_3_weights.csv`**: Weights of the output layer. ⚖️  
 - **`layer_3_biases.csv`**: Biases of the output layer. ➕  
-
----
-
-## 🛠️ Requirements  
-- **Python 3.7+** 🐍  
-- **Libraries**:  
-  - TensorFlow  
-  - NumPy  
-  - Matplotlib
-  - Opencv-Python  
-
 ---
 
 🎯 This project highlights the math and its role in powering artificial intelligence!  
