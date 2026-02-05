@@ -7,8 +7,8 @@ Rather than treating the model as a black box, the project examines:
 - **Backward propagation of gradients using the chain rule**
 - Weight and bias updates during a single learning step
 
-A **full iteration of backpropagation was computed manually by hand**, and the analytical results were verified using a Python/TensorFlow implementation.**
-📄 **Hand-derived backpropagation calculations:
+A **full iteration of backpropagation was computed manually by hand**, and the analytical results were verified using a Python/TensorFlow implementation.  
+📄 **Hand-derived backpropagation calculations:**  
 [Google Sheets – Backpropagation Derivation](https://docs.google.com/spreadsheets/d/1Cq9TQVi4c1R4hMYBZ8yyiRYQwrktnMIA719n4Upulj8/edit?gid=0#gid=0)
 
 ---
